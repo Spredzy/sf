@@ -1,9 +1,7 @@
 class Image(object):
 
-    def __init__(self,path=None,role=None):
-        self.role = role
-        self.path = path
-        self.id = None
+    def __init__(self):
+        return
 
     def create(self):
         pass

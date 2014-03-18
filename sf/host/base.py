@@ -1,20 +1,10 @@
 class Host(object):
 
-    def __init__(self):
-        self.ip = None
-        self.name = None
-        self.hostname = None
-        self.image_id = None
+    def __init__(self, name, **kwargs):
+        self.name = name
 
-    def create(self):
+    def create(self, credentials, environment):
         pass
 
-    def delete(self):
+    def delete(self, credentials):
         pass
-
-    def get_ip(self):
-        pass
-
-    def update(self):
-        pass
-    
